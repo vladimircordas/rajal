@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rajal Distillery DOO</title>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+
+    <script type="text/javascript" src="js/lightslider.min.js"></script>
+    <link rel="stylesheet" href="css/lightslider.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/428f7474be.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="large">
+        <div class="logo">
+            <a href="/"><img src="img/rajal-logo.jpg" alt="Rajal logo"></a>
+        </div>
+        <label for="drop">
+            <div id="nav-icon3"><span></span><span></span><span></span><span></span></div></label>
+        <input id="drop" type="checkbox" />
+        <ul class="menu">
+            <li><a class="active" href="/">naslovna</a></li>
+            <li>
+                <!--First Tier Drop Down--><label class="toggle" for="drop-2">Nasi proizvodi + </label><a href="" id="arrow_rotate" onclick="event.preventDefault();">Naši proizvodi<div class="menu_arrow switch"><div class="arrow"></div></div></a><input id="drop-2" type="checkbox">
+                <ul>
+                    <li>
+                        <!--Second Tier Drop Down--><label class="toggle" for="drop-3">rakije +</label><a href="#">rakije</a><input id="drop-3" type="checkbox">
+                        <ul>
+                            <li><a href="#">Rakija</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--Second Tier Drop Down--><label class="toggle" for="drop-4">Likeri +</label><a href="#">Likeri</a><input id="drop-4" type="checkbox">
+                        <ul>
+                            <li><a href="#">Liker</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--Third Tier Drop Down--><label class="toggle" for="drop-5">Rakije LUX +</label><a href="#">Rakije LUX</a><input id="drop-5" type="checkbox">
+                        <ul>
+                            <li><a href="#">Rakija LUX</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--Third Tier Drop Down--><label class="toggle" for="drop-6">Likeri LUX +</label><a href="#">Likeri LUX</a><input id="drop-6" type="checkbox">
+                        <ul>
+                            <li><a href="#">Liker LUX</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="/kitchen_menu?locale=sr">galerija</a></li>
+        </ul>
+        </li>
+        <li><a href="/kitchen_menu?locale=sr">galerija</a></li>
+        </ul>
+        <div class="language"><a class="active_lang" href="/change_language/sr">SRB/</a><a class="" href="/change_language/en">ENG</a></div>
+        <div class="social">
+
+            <li>
+                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+
+                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+
+                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a> </li>
+            <li>
+
+                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a> </li>
+            <li>
+
+                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a> </li>
+        </div>
+    </nav>
+    <main>
+        <section id="proizvod">
+            <div class="container">
+                <div class="row">
+                    <div class="col sm12 m12">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="./img/liker_dunja.png">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+
+                                    <h3 class="uppercase">DUNJA</h3>
+                                    <h4>Quince Brandy</h4>
+                                    <p class="flow-text">Naš najpoznatiji i najprodavaniji brend u regionu, prepoznat od strane ljubitelja po svom kvalitetu i specifičnom ukusu i aromi. Rakija od dunje se priprema od najkvalitetnijih vrsta voća sorte „Leskovčanka“ po recepturi,
+                                        koja se ljubomorno čuva vekovima i po specifičnom tehnološkom postupku, gde se nakon pečenja na strogo kontrolisanoj temperaturi i destilaciji, dodaje izvorska voda sa velikih dubina.</p>
+
+                                </div>
+                            </div>
+                            <div class="card-stacked-vertical">
+                                <div class="card-content">
+                                    <h4 class="findOutMore">OTKRIJTE JOS ↓
+                                    </h4>
+                                    <ul id="lightSlider">
+
+
+
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                          This is a Title
+                                                        </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                          This is a content
+                                                        </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                              This is a Title
+                                                            </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                              This is a content
+                                                            </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                  This is a Title
+                                                                </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                  This is a content
+                                                                </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                      This is a Title
+                                                                    </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                      This is a content
+                                                                    </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                          This is a Title
+                                                                        </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                          This is a content
+                                                                        </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                              This is a Title
+                                                                            </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                              This is a content
+                                                                            </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                                  This is a Title
+                                                                                </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                                  This is a content
+                                                                                </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img src="./img/liker_dunja.png">
+                                                    <span class="card-title">
+                                                                                      This is a Title
+                                                                                    </span>
+                                                </div>
+
+                                                <span class="card-content">
+                                                                                      This is a content
+                                                                                    </span>
+                                                <div class="card-action">
+                                                    <a href="#">This is a link</a>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    <button type="button" id="goToPrevSlide">Prev</button>
+                                    <button type="button" id="goToNextSlide">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class="footer_logo" src="img/rajal-logo.jpg" />
+        <ul class="row_2">
+            <li>Sivč Jovgena bb, 21460 Vrbas, Srbija</li>
+            <li class="contact-mail"><b>rajalrakija@gmail.com</b></li>
+            <li class="contact-mail"><b>+381 21 790088</b></li>
+            <li class="contact-mail"><b>+381 64 1147875</b></li>
+            <li class="contact-mail"><b>+381 64 2339564</b></li>
+            <li class="contact-mail"><b>+381 63 7319158</b></li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+
+            var slider = $('#lightSlider').lightSlider({
+                item: 4,
+                loop: true,
+                slideMove: 2,
+                controls: false,
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed: 600,
+                responsive: [{
+                    breakpoint: 800,
+                    settings: {
+                        item: 3,
+                        slideMove: 1,
+                        slideMargin: 6,
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        item: 2,
+                        slideMove: 1
+                    }
+                }]
+            });
+            $('#goToPrevSlide').on('click', function() {
+                slider.goToPrevSlide();
+            });
+            $('#goToNextSlide').on('click', function() {
+                slider.goToNextSlide();
+            });
+        });
+    </script>
+</body>
+
+</html>
